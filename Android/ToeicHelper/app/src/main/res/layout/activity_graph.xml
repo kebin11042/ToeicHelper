@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ThemeWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/ThemeGrey">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="성적"
+                android:textColor="@color/ThemeBlack"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="14dp"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_weight="9"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_weight="9"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/ThemeGrey"
+                    android:gravity="center|bottom">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="시험 날짜"
+                        android:layout_marginBottom="3dp"
+                        android:textColor="@color/ThemeBlack"
+                        android:textSize="14dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/hscrollvGraph"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_weight="9"
+                        android:id="@+id/layMyscoreGraph"
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:orientation="horizontal"
+                        android:gravity="left|bottom">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layMyscoreText"
+                        android:layout_weight="1.5"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/Alpha"
+                        android:orientation="horizontal"></LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

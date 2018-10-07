@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ThemeWhite"
+    android:alpha="0.6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="아직 추가한 단어가 없습니다.\n단어를 추가해 주세요"
+        android:textSize="30dp"
+        android:textColor="@color/ThemeBlack"/>
+
+</LinearLayout>

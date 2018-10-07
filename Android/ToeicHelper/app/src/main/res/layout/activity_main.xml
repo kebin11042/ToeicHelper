@@ -1,0 +1,64 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgvMainBackground"
+        android:layout_width="1200dip"
+        android:layout_height="720dip"
+        android:background="@drawable/main_img_background0"
+        android:layout_gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_background_shadow">
+
+        <com.example.bang.toeichelper.noTouchViewPager
+            android:id="@+id/vpagerMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layMainText"
+                android:layout_marginLeft="45dip"
+                android:layout_marginRight="45dip"
+                android:layout_width="match_parent"
+                android:layout_height="160dip"
+                android:orientation="vertical"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/txtvMainTitle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TOEIC"
+                    android:textColor="@color/ThemeWhite"
+                    android:gravity="left"
+                    android:textSize="50dip" />
+
+                <TextView
+                    android:id="@+id/txtvMainTitle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HELPER"
+                    android:textColor="@color/ThemeWhite"
+                    android:gravity="right"
+                    android:textSize="50dip"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

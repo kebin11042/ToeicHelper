@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style
+        name="AppTheme"
+        parent="Base.V21.Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style
+        name="MyActionBar"
+        parent="Base.V21.Theme.AppCompat.Light">
+        <item name="android:background">@drawable/actionbar_background_black</item>
+    </style>
+
+
+    <style
+        name="myOverlayTheme"
+        parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--<style name="MyActionBar1"-->
+        <!--parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">-->
+        <!--<item name="android:background">@drawable/actionbar_background_orange</item>-->
+    <!--</style>-->
+
+
+    <style name="AppThemeNoAct" parent="Theme.AppCompat.Light.NoActionBar" />
+
+</resources>

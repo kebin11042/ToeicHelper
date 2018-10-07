@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dip" />
+
+        <LinearLayout
+            android:id="@+id/layLogin"
+            android:layout_marginTop="10dip"
+            android:layout_marginRight="40dip"
+            android:layout_marginLeft="40dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/login_background_login">
+
+            <TextView
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="2dip"
+                android:layout_marginBottom="2dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="계정으로 로그인"
+                android:textColor="@color/ThemeBlack"
+                android:textSize="13dip"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/ThemeDarkGrey"></LinearLayout>
+
+            <EditText
+                android:layout_marginLeft="5dip"
+                android:id="@+id/edtxLoginID"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:hint="이메일"
+                android:textSize="13dip"
+                android:background="#00ffffff"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip"
+                android:background="@color/ThemeAlphaDarkGrey"></LinearLayout>
+
+            <EditText
+                android:layout_marginLeft="5dip"
+                android:id="@+id/edtxLoginPW"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:hint="비밀번호"
+                android:textSize="13dip"
+                android:background="#00ffffff"
+                android:inputType="textPassword"
+                android:singleLine="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip"
+                android:layout_marginBottom="4dip"
+                android:background="@color/ThemeAlphaDarkGrey"></LinearLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="3dip"
+                app:rippleOverlay="true"
+                app:rippleColor="@color/ThemeWhite"
+                app:rippleAlpha="0.3"
+                app:rippleHover="true"
+                app:rippleDelayClick="true">
+
+                <Button
+                    android:id="@+id/btnLoginLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="로그인"
+                    android:textColor="@color/ThemeWhite"
+                    android:background="@drawable/btn_blue_alpha_corner"
+                    android:textSize="15dip"/>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="40dip"
+            android:layout_marginLeft="40dip">
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/btn_red_alpha_corner"
+                app:rippleOverlay="true"
+                app:rippleColor="@color/ThemeWhite"
+                app:rippleAlpha="0.3"
+                app:rippleHover="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dip">
+
+                    <Button
+                        android:id="@+id/btnLoginGoogle"
+                        android:text="     구글계정으로 로그인"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00ffffff"
+                        android:textColor="@color/ThemeWhite"
+                        android:textSize="15dip"/>
+
+                    <ImageView
+                        android:padding="3dip"
+                        android:layout_gravity="left"
+                        android:layout_width="48dip"
+                        android:layout_height="48dip"
+                        android:src="@drawable/google_logo_128"
+                        android:scaleType="fitXY"/>
+
+                </FrameLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                app:rippleOverlay="true"
+                app:rippleColor="@color/ThemeWhite"
+                app:rippleAlpha="0.3"
+                app:rippleHover="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dip">
+
+                    <Button
+                        android:id="@+id/btnLoginKakao"
+                        android:text="     카카오톡계정으로 로그인"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn_yellow_alpha_corner"
+                        android:textColor="@color/ThemeWhite"
+                        android:textSize="15dip"/>
+
+                    <ImageView
+                        android:padding="3dip"
+                        android:layout_gravity="left"
+                        android:layout_width="48dip"
+                        android:layout_height="48dip"
+                        android:src="@drawable/kakaotalk_icon"
+                        android:scaleType="fitXY"/>
+
+                </FrameLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnLoginJoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="계정이 없으시다고요?  회원가입"
+                android:background="#00ffffff"
+                android:textColor="@drawable/text_color_join"
+                android:textSize="13dip"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

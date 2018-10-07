@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:float="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/ThemeWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/ThemeRed"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="구글 계정으로 회원가입"
+            android:gravity="center|left"
+            android:textColor="@color/White"
+            android:textSize="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeGrey"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이메일"
+            android:gravity="center|left"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ThemeBlack"
+            android:background="@color/Alpha"/>
+
+        <TextView
+            android:id="@+id/txtvGoogleJoinEmail"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textSize="13dp"
+            android:text="이메일"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:textColor="@color/ThemeBlack"
+            android:background="@color/Alpha"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeDarkGrey"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"></LinearLayout>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이름"
+            android:gravity="center|left"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/ThemeBlack"
+            android:background="@color/Alpha"/>
+
+        <TextView
+            android:id="@+id/txtvGoogleJoinName"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textSize="13dp"
+            android:text="이름"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:textColor="@color/ThemeBlack"
+            android:background="@color/Alpha"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeDarkGrey"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"></LinearLayout>
+
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <EditText
+                android:paddingLeft="5dp"
+                android:id="@+id/edtxGoogleJoinPW"
+                android:hint="비밀번호"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:background="@color/Alpha"
+                android:textSize="13dp"
+                android:textColor="@color/ThemeBlack" />
+
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeDarkGrey"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnGoogleJoinCancle"
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:textColor="@color/ThemeRed"
+            android:background="@drawable/btn_kakao_cancle"
+            android:textSize="14dp"/>
+
+        <Button
+            android:id="@+id/btnGoogleJoinOK"
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="회원 가입"
+            android:textColor="@color/ThemeWhite"
+            android:background="@drawable/btn_google_ok"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

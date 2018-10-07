@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ThemeWhite">
+
+    <LinearLayout
+        android:id="@+id/layToeicdateTH"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="회차"
+            android:textColor="@color/ThemeDarkGrey"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/txtvToeicdateTH"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="282 회"
+            android:textColor="@color/ThemeBlack"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/ThemeGrey"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layToeicdateDate"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시험 일"
+            android:textColor="@color/ThemeDarkGrey"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/txtvToeicdateDay"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15.03.15 (일) 오전 9시 20분"
+            android:textColor="@color/ThemeBlack"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/ThemeGrey"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layToeicdateAnn"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="성적 발표 일"
+            android:textColor="@color/ThemeDarkGrey"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/txtvToeicdateAnnouncement"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15.13.15 (금) 오후 3시"
+            android:textColor="@color/ThemeBlack"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/ThemeGrey"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layToeicdateApp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="인터넷 접수 기간"
+            android:textColor="@color/ThemeDarkGrey"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/txtvToeicdateApplicationPeriod"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="정기 접수 ~~~~~\n추가 접수 ~~~~~"
+            android:textColor="@color/ThemeBlack"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

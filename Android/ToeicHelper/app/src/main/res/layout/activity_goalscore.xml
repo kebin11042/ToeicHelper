@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ThemeWhite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--목표점수 설정-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="토익 목표 성적 설정"
+                    android:textSize="25dp"
+                    android:textColor="@color/ThemeBlack"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+                <!--LC-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Listening Comprehension"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="@color/ThemeOrange"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!--part1-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="1dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="part1"
+                                android:textSize="18dp"
+                                android:textColor="@color/ThemeBlack"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/txtvGoalPart1"
+                                android:layout_width="1dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="10 / 10"
+                                android:textSize="18dp"
+                                android:textColor="@color/ThemeBlack"
+                                android:gravity="center"/>
+
+                            <ImageButton
+                                android:id="@+id/ibtnGoalPart1"
+                                android:layout_marginRight="5dp"
+                                android:paddingRight="3dp"
+                                android:paddingLeft="3dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/goal_img_setscore"
+                                android:background="@drawable/selector"/>
+
+                        </LinearLayout>
+
+                        <!--part2-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:text="part2"
+                                android:textSize="18dp"
+                                android:textColor="@color/ThemeBlack"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/txtvGoalPart2"
+                                android:layout_weight="1"
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:text="10 / 30"
+                                android:textSize="18dp"
+                                android:textColor="@color/ThemeBlack"
+                                android:gravity="center"/>
+
+                            <ImageButton
+                                android:id="@+id/ibtnGoalPart2"
+                                android:layout_marginRight="5dp"
+                                android:paddingRight="3dp"
+                                android:paddingLeft="3dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/goal_img_setscore"
+                                android:background="@drawable/selector"/>
+
+                        </LinearLayout>
+
+                        <!--part3-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:text="part3"
+                                android:textSize="18dp"
+                                android:textColor="@color/ThemeBlack"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/txtvGoalPart3"
+                                android:layout_weight="1"
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:text="10 / 30"
+                                android:textSize="18dp"
+                                android:textColor="@color/ThemeBlack"
+                                android:gravity="center"/>
+
+                            <ImageButton
+                                android:id="@+id/ibtnGoalPart3"
+                                android:layout_marginRight="5dp"
+                                android:paddingRight="3dp"
+                                android:paddingLeft="3dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/goal_img_setscore"
+                                android:background="@drawable/selector"/>
+
+                        </LinearLayout>
+
+                        <!--part4-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:text="part4"
+                                android:textSize="18dp"
+                                android:textColor="@color/ThemeBlack"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/txtvGoalPart4"
+                                android:layout_weight="1"
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:text="10 / 30"
+                                android:textSize="18dp"
+                                android:textColor="@color/ThemeBlack"
+                                android:gravity="center"/>
+
+                            <ImageButton
+                                android:id="@+id/ibtnGoalPart4"
+                                android:layout_marginRight="5dp"
+                                android:paddingRight="3dp"
+                                android:paddingLeft="3dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/goal_img_setscore"
+                                android:background="@drawable/selector"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+                        <!--LC total-->
+                        <LinearLayout
+                            android:padding="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:text="LC total"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/ThemeBlack"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/txtvGoalLCtotal"
+                                android:layout_weight="1"
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:text="10 / 100"
+                                android:textStyle="bold"
+                                android:textSize="18dp"
+                                android:textColor="@color/ThemeBlack"
+                                android:gravity="center"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+
+                    <!--RC-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:padding="3dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Reading Comprehension"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/ThemeBlue"
+                            android:gravity="center"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <!--part5-->
+                            <LinearLayout
+                                android:padding="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_width="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="part5"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/ThemeBlack"
+                                    android:gravity="center"/>
+
+                                <TextView
+                                    android:id="@+id/txtvGoalPart5"
+                                    android:layout_weight="1"
+                                    android:layout_width="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="10 / 40"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/ThemeBlack"
+                                    android:gravity="center"/>
+
+                                <ImageButton
+                                    android:id="@+id/ibtnGoalPart5"
+                                    android:layout_marginRight="5dp"
+                                    android:paddingRight="3dp"
+                                    android:paddingLeft="3dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/goal_img_setscore"
+                                    android:background="@drawable/selector"/>
+
+                            </LinearLayout>
+
+                            <!--part6-->
+                            <LinearLayout
+                                android:padding="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_width="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="part6"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/ThemeBlack"
+                                    android:gravity="center"/>
+
+                                <TextView
+                                    android:id="@+id/txtvGoalPart6"
+                                    android:layout_weight="1"
+                                    android:layout_width="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="10 / 12"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/ThemeBlack"
+                                    android:gravity="center"/>
+
+                                <ImageButton
+                                    android:id="@+id/ibtnGoalPart6"
+                                    android:layout_marginRight="5dp"
+                                    android:paddingRight="3dp"
+                                    android:paddingLeft="3dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/goal_img_setscore"
+                                    android:background="@drawable/selector"/>
+
+                            </LinearLayout>
+
+                            <!--part7-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_width="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="part7"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/ThemeBlack"
+                                    android:gravity="center"/>
+
+                                <TextView
+                                    android:id="@+id/txtvGoalPart7"
+                                    android:layout_weight="1"
+                                    android:layout_width="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="10 / 48"
+                                    android:textSize="18dp"
+                                    android:textColor="@color/ThemeBlack"
+                                    android:gravity="center"/>
+
+                                <ImageButton
+                                    android:id="@+id/ibtnGoalPart7"
+                                    android:layout_marginRight="5dp"
+                                    android:paddingRight="3dp"
+                                    android:paddingLeft="3dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/goal_img_setscore"
+                                    android:background="@drawable/selector"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+                            <!--RC total-->
+                            <LinearLayout
+                                android:padding="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:layout_width="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="RC total"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/ThemeBlack"
+                                    android:gravity="center"/>
+
+                                <TextView
+                                    android:id="@+id/txtvGoalRCtotal"
+                                    android:layout_weight="1"
+                                    android:layout_width="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="10 / 100"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/ThemeBlack"
+                                    android:gravity="center"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/ThemeGrey"></LinearLayout>
+
+            <!--예상 목표 점수-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center|left">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="예상 목표 점수"
+                        android:textColor="@color/ThemeBlack"
+                        android:textSize="25dp"/>
+
+                    <ImageButton
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/goal_img_help"
+                        android:background="@drawable/selector"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:text="LC"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/ThemeOrange"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/txtvGoalLCscore"
+                        android:layout_weight="1"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:text="300"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/ThemeBlack"/>
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:text="RC"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="@color/ThemeBlue"/>
+
+                    <TextView
+                        android:id="@+id/txtvGoalRCscore"
+                        android:layout_weight="1"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:text="300"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/ThemeBlack"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:gravity="center"
+                    android:textSize="23dp"
+                    android:textColor="@color/ThemeBlack"/>
+
+                <TextView
+                    android:id="@+id/txtvGoalTotalscore"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="600 점"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="23dp"
+                    android:textColor="@color/ThemeBlack"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/ThemeGrey"></LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

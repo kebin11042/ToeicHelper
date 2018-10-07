@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@color/ThemeWhite">
+
+    <LinearLayout
+        android:id="@+id/layPopWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/selector"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtvPopWordPosition"
+            android:layout_weight="1"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="1."
+            android:textColor="@color/ThemeBlack"/>
+
+        <TextView
+            android:id="@+id/txtvPopWordWord"
+            android:layout_weight="4"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textColor="@color/ThemeBlack"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txtvPopWordCnt"
+            android:layout_weight="1"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="3 명"
+            android:textColor="@color/ThemeBlack"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

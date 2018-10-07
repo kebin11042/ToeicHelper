@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/ThemeWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/ThemeYellow"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="카카오톡 계정으로 회원가입"
+            android:gravity="center|left"
+            android:textColor="@color/White"
+            android:textSize="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeGrey"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <EditText
+            android:hint="이메일"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:background="@color/Alpha"
+            android:textSize="13dp"
+            android:textColor="@color/ThemeBlack"
+            android:paddingLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeDarkGrey"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"></LinearLayout>
+
+        <EditText
+            android:hint="이름"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:singleLine="true"
+            android:background="@color/Alpha"
+            android:textSize="13dp"
+            android:textColor="@color/ThemeBlack"
+            android:paddingLeft="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeDarkGrey"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"></LinearLayout>
+
+        <EditText
+            android:hint="비밀번호"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:background="@color/Alpha"
+            android:textSize="13dp"
+            android:textColor="@color/ThemeBlack"
+            android:paddingLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeDarkGrey"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:textColor="@color/ThemeYellow"
+            android:background="@drawable/btn_kakao_cancle"
+            android:textSize="14dp"/>
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="회원 가입"
+            android:textColor="@color/ThemeWhite"
+            android:background="@drawable/btn_kakao_ok"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:alpha="0.3"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@color/ThemeBlack">
+
+    <LinearLayout
+        android:id="@+id/layMydictAdddict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:background="@drawable/selector">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="단어장 추가"
+            android:textSize="20dp"
+            android:textColor="@color/ThemeBlue"/>
+
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dict_img_plus"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

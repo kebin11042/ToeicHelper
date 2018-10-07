@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ThemeWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="토익 성적 추가"
+            android:textSize="25dp"
+            android:textColor="@color/ThemeBlack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+        <TextView
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listening Comprehension"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/ThemeOrange"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="part1"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtxMyscoreAddPart1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ThemeBlack"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:textSize="17dp"
+                    android:background="@color/Alpha"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/Black"></LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text=" / 10"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="part2"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtxMyscoreAddPart2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ThemeBlack"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:textSize="17dp"
+                    android:background="@color/Alpha"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/Black"></LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text=" / 30"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="part3"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtxMyscoreAddPart3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ThemeBlack"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:textSize="17dp"
+                    android:background="@color/Alpha"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/Black"></LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text=" / 30"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="part4"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtxMyscoreAddPart4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ThemeBlack"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:textSize="17dp"
+                    android:background="@color/Alpha"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/Black"></LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text=" / 30"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+        <!--LC total-->
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="LC total"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtvMyScoreAddLCtotal"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="0 / 100"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+        <TextView
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reading Comprehension"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/ThemeBlue"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="part5"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtxMyscoreAddPart5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ThemeBlack"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:textSize="17dp"
+                    android:background="@color/Alpha"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/Black"></LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text=" / 40"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="part6"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtxMyscoreAddPart6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ThemeBlack"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:textSize="17dp"
+                    android:background="@color/Alpha"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/Black"></LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text=" / 12"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="part7"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtxMyscoreAddPart7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ThemeBlack"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:textSize="17dp"
+                    android:background="@color/Alpha"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/Black"></LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text=" / 48"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+        <!--LC total-->
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="RC total"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtvMyScoreAddRCtotal"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="0 / 100"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/ThemeBlack"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+        <TextView
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="날짜 입력"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/ThemeBrown"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txtvMyScoreAddDate"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2015 년 05 월 06 일"
+            android:gravity="center"
+            android:textColor="@color/ThemeBlack"
+            android:textSize="20dp"
+            android:background="@drawable/selector"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ThemeAlphaGrey"></LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

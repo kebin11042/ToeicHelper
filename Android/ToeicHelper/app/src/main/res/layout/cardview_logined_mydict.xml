@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardvLoginedMydict"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@color/ThemeWhite">
+
+    <LinearLayout
+        android:padding="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/selector">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="단어장 보기"
+            android:textColor="@color/ThemeOrange"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

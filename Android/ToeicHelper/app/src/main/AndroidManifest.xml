@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bang.toeichelper" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/myOverlayTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginedActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="geo" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ToeicdateActivity" />
+        <activity android:name=".GoalscoreActivity" />
+        <activity android:name=".MydictActivity" />
+        <activity android:name=".GraphActivity" />
+        <activity android:name=".MyscoreAddActivity" />
+        <activity android:name=".MyscoreDetailActivity" />
+        <activity android:name=".WordActivity" />
+        <activity android:name=".PopWordActivity" />
+        <activity android:name=".SampleLoginActivity" />
+        <activity android:name=".SampleSignupActivity" />
+        <activity android:name="com.kakao.LoginActivity" />
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey" android:value="@string/kakao_app_key" />
+    </application>
+
+</manifest>
