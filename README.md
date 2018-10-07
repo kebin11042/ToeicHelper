@@ -19,6 +19,15 @@ TOEIC 시험 점수 향상과 관리에 편리함을 주기 위해 Android App�
 #### **사용 기술** : `Android Java`, `php`, `MySQL`, [닷홈 Server Hosting][1]
 
 #### **사용 툴** : `Android Studio`, `SublimeText2`
+  
+  
+  
+  
+### SCREEN SHOT
+-------
+
+<img src="img/screen_shot_1.png" width="200px"> <img src="img/screen_shot_2.png" width="200px"> <img src="img/screen_shot_3.png" width="200px"> <img src="img/screen_shot_4.png" width="200px">
+<img src="img/screen_shot_5.png" width="200px"> <img src="img/screen_shot_6.png" width="200px"> <img src="img/screen_shot_7.png" width="200px">
 
 [1]: https://www.dothome.co.kr/
 [2]: https://play.google.com/store/apps/details?id=com.socialnmobile.colordict&hl=ko
